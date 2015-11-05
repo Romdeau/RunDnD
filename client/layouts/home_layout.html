@@ -1,0 +1,14 @@
+<template name="homeLayout">
+  <div id="wrap container" class="container">
+    <header id="header" class="navbar-fluid navbar-inverse" role="navigation">
+      {{>Template.dynamic template=top}}
+    </header>
+    <div id="content">
+      <h1>Run DnD</h1>
+      {{>Template.dynamic template=main}}
+    </div>
+    <div id="footer">
+      {{>Template.dynamic template=footer}}
+    </div>
+  </div>
+</template>
